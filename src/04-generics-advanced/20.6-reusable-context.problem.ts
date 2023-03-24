@@ -1,4 +1,4 @@
-import { CSSProperties } from "react";
+import { CSSProperties } from 'react';
 
 /**
  * In this implementation, we need to specify the theme
