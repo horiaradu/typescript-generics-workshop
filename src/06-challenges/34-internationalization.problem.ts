@@ -12,7 +12,7 @@ type GetParamKeysAsUnion<TTranslation extends string> =
 const translate = <
   Translations extends Record<string, string>,
   Key extends keyof Translations,
-  DyanmicKeys extends GetParamKeysAsUnion<Translations[Key]>,
+  DyanmicKeys = GetParamKeysAsUnion<Translations[Key]>,
 >(
   translations: Translations,
   key: Key,
